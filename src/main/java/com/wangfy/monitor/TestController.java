@@ -8,8 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 @RestController
 public class TestController {
+
     @RequestMapping("/test")
     public String test(){
         return "success";
     }
+
 }
