@@ -1,5 +1,5 @@
 # 定制的镜像都是基于 FROM 的镜像，这里的openjdk:8-jdk-alpine就是基础镜像
-FROM java:8
+FROM 192.168.10.100:80/library/java:8
 #FROM openjdk:8-jdk-alpine
 # 构建参数
 ARG JAR_FILE
